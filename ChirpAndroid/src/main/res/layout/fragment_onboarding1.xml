@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboard1_bg"
+    tools:context=".onboarding.screens.Onboarding1">
+
+    <View
+        android:id="@+id/ellipse_1.1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="206dp"
+        android:background="@drawable/onboard1_e1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968" />
+
+    <View
+        android:id="@+id/ellipse_1.2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="848dp"
+        android:background="@drawable/onboard1_e2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/ellipse_1.3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="848dp"
+        android:background="@drawable/onboard1_e1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/no_more_bac"
+        android:layout_width="375dp"
+        android:layout_height="238dp"
+        android:padding="0dp"
+        android:scaleType="centerInside"
+        android:text="@string/no_more_bac_String"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/onboarding_style"
+        android:textDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+</androidx.constraintlayout.widget.ConstraintLayout>

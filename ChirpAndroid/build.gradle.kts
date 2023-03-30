@@ -8,13 +8,15 @@ android {
     compileSdk = 33
     defaultConfig {
         applicationId = "com.example.chirp.android"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
     }
     buildFeatures {
         compose = true
+        viewBinding = true
+
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.0"
@@ -40,10 +42,22 @@ android {
 
 dependencies {
     implementation(project(":shared"))
-    implementation("androidx.compose.ui:ui:1.3.1")
-    implementation("androidx.compose.ui:ui-tooling:1.3.1")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.3.1")
+    implementation("androidx.compose.ui:ui:1.3.3")
+    implementation("androidx.compose.ui:ui-tooling:1.3.3")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.3.3")
     implementation("androidx.compose.foundation:foundation:1.3.1")
     implementation("androidx.compose.material:material:1.3.1")
     implementation("androidx.activity:activity-compose:1.6.1")
+    implementation("com.google.ar.sceneform:filament-android:1.17.1")
+    implementation("androidx.viewpager:viewpager:1.0.0")
+    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.fragment:fragment:1.5.5")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.navigation:navigation-fragment:2.5.3")
+    implementation("androidx.navigation:navigation-ui:2.5.3")
+    implementation("androidx.core:core-ktx:+")
+
 }
