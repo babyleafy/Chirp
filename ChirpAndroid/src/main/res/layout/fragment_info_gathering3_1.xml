@@ -47,27 +47,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_active"
-        android:layout_width="102dp"
+        android:layout_width="104dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
-        android:text="Active"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="ACTIVE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.446" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_party"
         android:layout_width="106dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
+        android:button="@null"
+        android:paddingRight="30dp"
         android:text="PARTY"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.452"
@@ -75,13 +79,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.446" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_outdoors"
         android:layout_width="135dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_22"
-        android:paddingRight="25dp"
-        android:text="Outdoors"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="OUTDOORS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.927"
@@ -89,13 +95,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.446" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_food"
         android:layout_width="89dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
-        android:text="Food"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="FOOD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.068"
@@ -103,13 +111,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.516" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_chill"
         android:layout_width="156dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_22"
-        android:paddingRight="25dp"
-        android:text="Chill &amp; Casual"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="CHILL &amp; CASUAL"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
@@ -117,13 +127,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.516" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_art"
         android:layout_width="85dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
-        android:text="Art"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="ART"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
@@ -131,13 +143,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.516" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_music"
         android:layout_width="94dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
-        android:text="Music"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="MUSIC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
@@ -145,13 +159,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.586" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_zen"
         android:layout_width="76dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="25dp"
-        android:text="Zen"
+        android:button="@null"
+        android:paddingRight="30dp"
+        android:textAlignment="center"
+        android:text="ZEN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.391"
@@ -159,13 +175,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.586" />
 
-    <Button
+    <CheckBox
         android:id="@+id/button_other"
         android:layout_width="73dp"
         android:layout_height="48dp"
         android:background="@drawable/rectangle_20"
-        android:paddingRight="0dp"
-        android:text="Other"
+        android:button="@null"
+        android:textAlignment="center"
+        android:text="OTHER"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.656"
