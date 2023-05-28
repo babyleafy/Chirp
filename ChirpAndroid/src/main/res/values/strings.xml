@@ -6,9 +6,7 @@
     <string name="local_activ_String">
         Local Activities And Experiences For Your Needs &amp; A Place To Save All Your Inspo Ideas
     </string>
-    <string name="send_personal_String">
-        Send Personalized Invites And Make Sh*t Happen&#33;
-    </string>
+    <string name="send_personal_String">Send Personalized Invites And Make Sh*t Happen!</string>
     <string name="chirp_splash_screen">Chirp Splash Screen</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

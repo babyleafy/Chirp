@@ -7,36 +7,37 @@
     android:background="@drawable/onboard3_bg"
     tools:context=".onboarding.screens.Onboarding3">
 
+
     <TextView
         android:id="@+id/send_personal"
         android:layout_width="375dp"
-        android:layout_height="238dp"
+        android:layout_height="100dp"
+        android:gravity="left"
         android:padding="0dp"
         android:scaleType="centerInside"
         android:text="@string/send_personal_String"
-        android:textAlignment="viewStart"
         android:textAppearance="@style/onboarding_style"
-        android:textDirection="rtl"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintVertical_bias="0.704" />
 
     <Button
         android:id="@+id/finish"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
         android:layout_marginStart="161dp"
         android:layout_marginTop="70dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="45dp"
-        android:text="Finish"
+        android:background="@drawable/infogathering_white_button"
+        android:text="Get started!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/send_personal"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

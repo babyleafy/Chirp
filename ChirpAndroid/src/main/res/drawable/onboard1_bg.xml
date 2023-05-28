@@ -42,4 +42,15 @@
       </aapt:attr>
     </path>
   </group>
+  <path
+      android:pathData="M212.5,879.5m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0"
+      android:fillColor="#F2BEFF"
+      android:fillAlpha="0.25"/>
+  <path
+      android:pathData="M185.5,879.5m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0"
+      android:fillColor="#F2BEFF"/>
+  <path
+      android:pathData="M239.5,879.5m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0"
+      android:fillColor="#F2BEFF"
+      android:fillAlpha="0.25"/>
 </vector>
