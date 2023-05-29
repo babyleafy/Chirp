@@ -21,8 +21,9 @@ class InfoGathering3_2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_info_gathering2, container, false)
+        val view = inflater.inflate(R.layout.fragment_info_gathering3_2, container, false)
         val doneButton = view.findViewById<Button>(R.id.button_done)
+
         doneButton.setOnClickListener {
             findNavController().navigate(R.id.action_infoGathering3_2_to_homeScreen)
         }

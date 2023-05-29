@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.RadioButton
+import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.example.chirp.android.R
 
@@ -27,22 +30,22 @@ class InfoGathering2 : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_info_gathering2, container, false)
         val doneButton = view.findViewById<Button>(R.id.button_done)
-        val somethingFamiliarButton = view.findViewById<Button>(R.id.button_something_familiar)
-        val somethingNewButton = view.findViewById<Button>(R.id.button_something_new)
+        val radioGroup = view.findViewById<RadioGroup>(R.id.radioGroup_something)
         var path = ""
 
-        somethingFamiliarButton.setOnClickListener {
-            path = "familiar"
-        }
-        somethingNewButton.setOnClickListener {
-            path = "new"
+        radioGroup.setOnCheckedChangeListener { group, checkedId ->
+            val selectedRadioButton = view.findViewById<RadioButton>(checkedId)
+            val selectedButtonText: String = selectedRadioButton.text.toString()
+            path = selectedButtonText
         }
 
         doneButton.setOnClickListener {
-            if (path == "familiar") {
+            if (path == "something familiar") {
                 findNavController().navigate(R.id.action_infoGathering2_to_infoGathering3_1)
-            } else if (path == "new") {
+            } else if (path == "something new") {
                 findNavController().navigate(R.id.action_infoGathering2_to_infoGathering3_2)
+            } else {
+                Toast.makeText(requireContext(), "Please select an option", Toast.LENGTH_SHORT).show()
             }
         }
 
